@@ -63,6 +63,7 @@ html {
 }
 a {
   text-decoration: none;
+  background-color: transparent;
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
@@ -104,152 +105,72 @@ h6 {
 em {
   font-style: italic;
 }
-strong {
+b, strong {
   font-weight: 500;
 }
 small {
   font-size: 75%;
 }
-/* HTML5 display definitions
-   ========================================================================== */
-/**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
- */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block; }
-
-/**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
+  display: block;
+}
 audio, canvas, progress, video {
   display: inline-block;
-  /* 1 */
   vertical-align: baseline;
-  /* 2 */ }
-
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
+}
 audio:not([controls]) {
   display: none;
-  height: 0; }
-
-/**
- * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
- */
+  height: 0;
+}
 [hidden], template {
-  display: none; }
-
-/* Links
-   ========================================================================== */
-/**
- * Remove the gray background color from active links in IE 10.
- */
-a {
-  background-color: transparent; }
-
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
+  display: none;
+}
 a:active, a:hover {
-  outline: 0; }
-
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
- */
+  outline: 0;
+}
 abbr[title] {
-  border-bottom: 1px dotted; }
-
-/**
- * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
- */
-b, strong {
-  font-weight: bold; }
-
-/**
- * Address styling not present in Safari and Chrome.
- */
+  border-bottom: 1px dotted;
+}
 dfn {
-  font-style: italic; }
-  /**
-   * Address styling not present in IE 8/9.
-   */
-  mark {
-    background: #ff0;
-    color: #000; }
-
-  /**
-   * Address inconsistent and variable font size in all browsers.
-   */
-  small {
-    font-size: 80%; }
-
-  /**
-   * Prevent `sub` and `sup` affecting `line-height` in all browsers.
-   */
-  sub, sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline; }
-
-  sup {
-    top: -0.5em; }
-
-  sub {
-    bottom: -0.25em; }
-
-  /* Embedded content
-     ========================================================================== */
-  /**
-   * Remove border when inside `a` element in IE 8/9/10.
-   */
-  img {
-    border: 0; }
-
-  /**
-   * Correct overflow not hidden in IE 9/10/11.
-   */
-  svg:not(:root) {
-    overflow: hidden; }
-
-  /* Grouping content
-     ========================================================================== */
-  /**
-   * Address margin not present in IE 8/9 and Safari.
-   */
-  figure {
-    margin: 1em 40px; }
-
-  /**
-   * Address differences between Firefox and other browsers.
-   */
-  hr {
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    height: 0; }
-
-  /**
-   * Contain overflow in all browsers.
-   */
-  pre {
-    overflow: auto; }
-
-  /**
-   * Address odd `em`-unit font size rendering in all browsers.
-   */
-  code, kbd, pre, samp {
-    font-family: monospace, monospace;
-    font-size: 1em; }
-
+  font-style: italic;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
 
 /* Colunas
 =====================*/
